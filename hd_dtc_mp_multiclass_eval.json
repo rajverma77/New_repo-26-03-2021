@@ -1,0 +1,118 @@
+{
+    "testcasename": "hd_dtc_mp_multiclass_eval",
+     "source": [
+    {
+       "coordinates": {
+         "x": "332",
+         "y": "272"
+       }
+   }
+ ],
+   "algo": [
+     {
+       "coordinates": {
+         "x": "430",
+         "y": "162"
+       },
+       "coordinates": {
+        "x": "580",
+        "y": "225"
+      },
+      "coordinates": {
+        "x": "580",
+        "y": "332"
+      }
+ }
+ ],
+ 
+ "sink" :[{
+      "coordinates": {
+         "x": "755",
+         "y": "266"
+       }
+ }
+ 
+ ],
+ "pipelineOpenMap": {
+     
+     "//*[@id='MyworkspaceId']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='SavedPipelines']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_project']": {
+       "type": "text",
+       "value": "Automation",
+       "selectorType": "xpath"
+     },
+     "//*[@id='Automation']": {
+       "type": "dropdown",
+       "value": "//*[@id='Automation']",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_pipeline']": {
+       "type": "text",
+       "value": "hd_dtc_mp_multiclass_eval",
+       "selectorType": "xpath"
+     },
+     "//*[@id='hd_dtc_mp_multiclass_eval']" :{
+       "type": "dropdown",
+       "value": "//*[@id='hd_dtc_mp_multiclass_eval_open']",
+           "selectorType": "xpath"
+     }
+ 
+   },
+   "viewResult": {
+  
+     "//*[@id='run']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='viewresult']": {
+       "type": "result",
+       "value": "",
+       "selectorType": "xpath"
+     }
+   },
+   "resultIds": [
+    {
+      "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",              
+          "value": "//*[@id='mnc-evl-dt-c']']",    
+          "selectorType": "xpath"
+        }
+	    },
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+     
+     { "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-mp']']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    }
+  ]
+ }
+ 

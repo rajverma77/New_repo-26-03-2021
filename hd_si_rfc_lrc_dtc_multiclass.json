@@ -1,0 +1,138 @@
+{
+    "testcasename": "hd_si_rfc_lrc_dtc_multiclass",
+     "source": [
+    {
+       "coordinates": {
+         "x": "333",
+         "y": "260"
+       }
+   }
+ ],
+   "algo": [
+     {
+       "coordinates": {
+         "x": "500",
+         "y": "260"
+       },
+       "coordinates": {
+        "x": "660",
+        "y": "160"
+      },
+      "coordinates": {
+        "x": "700",
+        "y": "250"
+      },
+      "coordinates": {
+        "x": "660",
+        "y": "330"
+      }
+ }
+ ],
+ 
+ "sink" :[{
+      "coordinates": {
+         "x": "920",
+         "y": "241"
+       }
+ }
+ 
+ ],
+ "pipelineOpenMap": {
+     
+     "//*[@id='MyworkspaceId']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='SavedPipelines']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_project']": {
+       "type": "text",
+       "value": "Automation",
+       "selectorType": "xpath"
+     },
+     "//*[@id='Automation']": {
+       "type": "dropdown",
+       "value": "//*[@id='Automation']",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_pipeline']": {
+       "type": "text",
+       "value": "hd_si_rfc_lrc_dtc_multiclass",
+       "selectorType": "xpath"
+     },
+     "//*[@id='hd_si_rfc_lrc_dtc_multiclass']" :{
+       "type": "dropdown",
+       "value": "//*[@id='hd_si_rfc_lrc_dtc_multiclass_open']",
+           "selectorType": "xpath"
+     }
+ 
+   },
+   "viewResult": {
+  
+     "//*[@id='run']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='viewresult']": {
+       "type": "result",
+       "value": "",
+       "selectorType": "xpath"
+     }
+   },
+   "resultIds": [
+    {
+      "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='si-rf-c']",    
+          "selectorType": "xpath"
+        }
+	    },
+      "resultData": {
+        "//*[@id='myResultThree']/div": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+     
+     { "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='si-dt-c']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='myResultThree']/div": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+{
+     "resultDropdown": {
+       "(//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='si-lr-c']",
+          "selectorType": "xpath"
+        }
+	},
+    "resultData": {
+      "//*[@id='myResultThree']/div": {
+        "type": "check",
+        "value": "",
+        "selectorType": "xpath"
+      }
+    }
+}
+  ]
+ }
+ 

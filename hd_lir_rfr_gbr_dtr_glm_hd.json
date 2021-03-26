@@ -1,0 +1,173 @@
+{
+    "testcasename": "hd_lir_rfr_gbr_dtr_glm_hd",
+     "source": [
+    {
+       "coordinates": {
+         "x": "330",
+         "y": "240"
+       }
+   }
+ ],
+   "algo": [
+     {
+       "coordinates": {
+         "x": "620",
+         "y": "190"
+       },
+       "coordinates": {
+        "x": "620",
+        "y": "310"
+      },
+      "coordinates": {
+        "x": "720",
+        "y": "125"
+      },
+      "coordinates": {
+       "x": "730",
+       "y": "260"
+     },
+     "coordinates": {
+       "x": "740",
+       "y": "360"
+     }
+ }
+ ],
+ 
+ "sink" :[{
+      "coordinates": {
+         "x": "955",
+         "y": "235"
+       }
+ }
+ 
+ ],
+ "pipelineOpenMap": {
+     
+     "//*[@id='MyworkspaceId']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='SavedPipelines']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_project']": {
+       "type": "text",
+       "value": "Automation",
+       "selectorType": "xpath"
+     },
+     "//*[@id='Automation']": {
+       "type": "dropdown",
+       "value": "//*[@id='Automation']",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_pipeline']": {
+       "type": "text",
+       "value": "hd_lir_rfr_gbr_dtr_glm_hd",
+       "selectorType": "xpath"
+     },
+     "//*[@id='hd_lir_rfr_gbr_dtr_glm_hd']" :{
+       "type": "dropdown",
+       "value": "//*[@id='hd_lir_rfr_gbr_dtr_glm_hd_open']", 
+           "selectorType": "xpath"
+     }
+ 
+   },
+   "viewResult": {
+  
+     "//*[@id='run']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='viewresult']": {
+       "type": "result",
+       "value": "",
+       "selectorType": "xpath"
+     }
+   },
+  "resultIds": [
+    {
+      "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {            
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-lir']",            
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {   
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+{
+    "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-rf-r']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+{
+   "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-gb-r']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+{
+   "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-dt-r']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+{
+   "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='hdfs-glm']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='TestResult']": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    }
+  ]
+}

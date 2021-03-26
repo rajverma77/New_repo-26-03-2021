@@ -1,0 +1,104 @@
+{
+    "testcasename": "ETL_HDFS_FI_CO_EXP_HDFS",
+     "source": [
+    {
+       "coordinates": {
+         "x": "415",
+         "y": "310"
+       }
+     
+   }
+ ],
+   "algo": [
+     {
+       "coordinates": {
+         "x": "610",
+         "y": "305"
+       },
+       "coordinates": {
+        "x": "815",
+        "y": "310"
+      },
+      "coordinates": {
+        "x": "990",
+        "y": "302"
+      }
+ }
+ ],
+ 
+ "sink" :[{
+      "coordinates": {
+         "x": "1216",
+         "y": "305"
+       }
+ }
+ 
+ ],
+ "pipelineOpenMap": {
+     "//*[@id='MyworkspaceId']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='SavedPipelines']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_project']": {
+       "type": "text",
+       "value": "Automation",
+       "selectorType": "xpath"
+     },
+     "//*[@id='Automation']": {
+       "type": "dropdown",
+       "value": "//*[@id='Automation']",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_pipeline']": {
+       "type": "text",
+       "value": "ETL_HDFS_FI_CO_EXP_HDFS",
+       "selectorType": "xpath"
+     },
+       "//*[@id='ETL_HDFS_FI_CO_EXP_HDFS']":{
+     "type": "dropdown",
+     "selectorType": "xpath",
+     "value": "//*[@id='ETL_HDFS_FI_CO_EXP_HDFS_open']"
+     }
+ 
+   },
+   "viewResult": {
+  
+     "//*[@id='run']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='viewresult']": {
+       "type": "result",
+       "value": "",
+       "selectorType": "xpath"
+     }
+   },
+   "resultIds": [
+     {
+       "resultDropdown": {
+         "//*[@id='myResult']/div/div/div": {
+           "type": "dropdown",
+           "value": "(//*[@id='exp'])[1]",
+           "selectorType": "xpath"
+         }
+ },
+       "resultData": {
+         "//*[@id='myResult']/div[2]/div/div": {
+           "type": "check",
+       "selectorType": "xpath",
+           "value": ""
+           
+         }
+       }
+     }
+     
+   ]
+ }
+ 

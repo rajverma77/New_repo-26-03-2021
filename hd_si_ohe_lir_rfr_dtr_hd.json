@@ -1,0 +1,142 @@
+{
+    "testcasename": "hd_si_ohe_lir_rfr_dtr_hd",
+     "source": [
+    {
+       "coordinates": {
+         "x": "335",
+         "y": "245"
+       }
+   }
+ ],
+   "algo": [
+     {
+       "coordinates": {
+         "x": "500",
+         "y": "245"
+       },
+       "coordinates": {
+        "x": "660",
+        "y": "240"
+      },
+      "coordinates": {
+        "x": "840",
+        "y": "175"
+      },
+      "coordinates": {
+       "x": "890",
+       "y": "245"
+     },
+     "coordinates": {
+       "x": "830",
+       "y": "315"
+     }
+ }
+ ],
+ 
+ "sink" :[{
+      "coordinates": {
+         "x": "1110",
+         "y": "250"
+       }
+ }
+ 
+ ],
+ "pipelineOpenMap": {
+     
+     "//*[@id='MyworkspaceId']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='SavedPipelines']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_project']": {
+       "type": "text",
+       "value": "Automation",
+       "selectorType": "xpath"
+     },
+     "//*[@id='Automation']": {
+       "type": "dropdown",
+       "value": "//*[@id='Automation']",
+       "selectorType": "xpath"
+     },
+     "//*[@id='search_pipeline']": {
+       "type": "text",
+       "value": "hd_si_ohe_lir_rfr_dtr_hd",
+       "selectorType": "xpath"
+     },
+     "//*[@id='hd_si_ohe_lir_rfr_dtr_hd']" :{
+       "type": "dropdown",
+       "value": "//*[@id='hd_si_ohe_lir_rfr_dtr_hd_open']",
+           "selectorType": "xpath"
+     }
+ 
+   },
+   "viewResult": {
+  
+     "//*[@id='run']": {
+       "type": "clickable",
+       "value": "",
+       "selectorType": "xpath"
+     },
+     "//*[@id='viewresult']": {
+       "type": "result",
+       "value": "",
+       "selectorType": "xpath"
+     }
+   },
+   "resultIds": [
+    {
+      "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='ohe-lir']",    
+          "selectorType": "xpath"
+        }
+	    },
+      "resultData": {
+        "//*[@id='myResultThree']/div": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+     
+     { "resultDropdown": {
+        "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+          "type": "dropdown",
+          "value": "//*[@id='ohe-dt-r']",
+          "selectorType": "xpath"
+        }
+	},
+      "resultData": {
+        "//*[@id='myResultThree']/div": {
+          "type": "check",
+          "value": "",
+          "selectorType": "xpath"
+        }
+      }
+    },
+     
+    { "resultDropdown": {
+       "//*[@id='myResult']/div/div[2]/div/div[2]/div/div[2]/div[1]/div/div/div/div": {
+         "type": "dropdown",
+         "value": "//*[@id='ohe-rf-r']",
+         "selectorType": "xpath"
+       }
+   },
+     "resultData": {
+       "//*[@id='myResultThree']/div": {
+         "type": "check",
+         "value": "",
+         "selectorType": "xpath"
+       }
+     }
+   }
+  ]
+ }
+ 
